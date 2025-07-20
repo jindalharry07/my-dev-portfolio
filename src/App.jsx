@@ -5,7 +5,7 @@ import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
-// import Skills from "./components/Skills/Skills";
+import Skills from "./components/Skills/Skills";
 import Work from "./components/Work/Work";
 
 import "./index.css";
@@ -24,7 +24,7 @@ const App = () => {
         <div className="relative pt-20">
           <Navbar />
           <About />
-          {/* <Skills /> */}
+          <Skills />
           {/* <Experience />
           <Work />
           <Education />
