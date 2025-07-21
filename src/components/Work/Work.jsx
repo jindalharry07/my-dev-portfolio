@@ -127,6 +127,7 @@ export const Work = () => {
           </div>
         </div>
       )}
+      <div className="clip-path-custom-2"></div>
     </section>
   );
 };

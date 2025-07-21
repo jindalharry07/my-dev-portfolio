@@ -28,9 +28,9 @@ import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import chitkaraLogo from './assets/education_logo/chitkara.png'
+import ys10 from './assets/education_logo/ys10.png'
+import ys12 from './assets/education_logo/ys12.png'
 
 // Project Section Logo's
 import studyNotion from './assets/work_logo/studyNotion.png';
@@ -159,43 +159,35 @@ export const SkillsInfo = [
   // ];
   
   export const education = [
-    {
-      id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
-    },
-    {
-      id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
-    {
-      id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
-  ];
+  {
+    id: 0,
+    img: chitkaraLogo,
+    school: "Chitkara University, Punjab",
+    date: "Aug 2023 - Present",
+    grade: "9.2 CGPA (Till 3rd Semester)",
+    desc: "I am currently pursuing a Bachelor of Engineering (B.E.) in Computer Science and Engineering at Chitkara University, Punjab. The program is strengthening my understanding of core computing principles, programming, and real-world software development. I've worked on multiple projects, participated in technical events, and explored domains like Data Structures, Web Development, Operating Systems, and Database Management Systems.",
+    degree: "Bachelor of Engineering - B.E. (Computer Science and Engineering)",
+  },
+  {
+    id: 1,
+    img: ys12,
+    school: "Young Scholar School, Barnala",
+    date: "Apr 2022 - Mar 2023",
+    grade: "77%",
+    desc: "I completed my Class 12 from Young Scholar School, Barnala (CBSE), with Physics, Chemistry, and Mathematics. This phase built a solid base for my education.",
+    degree: "CBSE (XII) - PCM with Computer Science",
+  },
+  {
+    id: 2,
+    img: ys10,
+    school: "Young Scholar School, Barnala",
+    date: "Apr 2020 - Mar 2021",
+    grade: "70%",
+    desc: "I completed my Class 10 from Young Scholar School, Barnala (CBSE). It laid the early groundwork for my interest in programming and technology.",
+    degree: "CBSE (X) - Science with Computer Applications",
+  },
+];
+
   
   export const projects = [
     {
