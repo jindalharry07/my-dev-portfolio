@@ -8,7 +8,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="py-4 px-[7vw] md:px[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
+      className="py-4 pb-22 px-[7vw] md:px[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left side */}
@@ -22,7 +22,7 @@ export const About = () => {
             Harry Jindal
           </div>
             {/* typing effect */}
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-gray-400 leading-tight">
               <span className="text-white">I am a<br/></span>
               <Typewriter
                 words={[
@@ -67,7 +67,7 @@ export const About = () => {
             </h3>
 
             {/* About me para */}
-            <p className="text-base sm:text-lg md:text:lg text-gray-400 mb-10">
+            <p className="text-base sm:text-lg md:text:lg text-[#91a7ff] mb-10">
               I am a full-stack developer focused on building practical projects and strengthening my programming skills through hands-on development. Proficient in both front-end and back-end technologies, I specialize in the MERN stack, Java, and C programming. I've worked on personal and academic projects involving object-oriented design in Java,  C and RESTful API development with Node.js and Express. I enjoy building responsive UIs with React and creating clean, maintainable, and scalable solutions. I'm passionate about continuous learning and exploring new technologies to grow as a developer.
             </p>
 

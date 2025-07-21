@@ -10,11 +10,11 @@ import Work from "./components/Work/Work";
 
 import "./index.css";
 import BlurBlob from "./blurBlob";
-
+// bg-[#040914]
 const App = () => {
   return (
     <>
-      <div className="bg-[#050414]">
+      <div className="bg-[#070f22]">
         <BlurBlob
           position={{ top: "35%", left: "20%" }}
           size={{ width: "30%", height: "40%" }}
@@ -25,11 +25,11 @@ const App = () => {
           <Navbar />
           <About />
           <Skills />
-          {/* <Experience />
+          {/* <Experience /> */}
           <Work />
-          <Education />
-          <Contact />
-          <Footer /> */}
+          {/* <Education /> */}
+          {/* <Contact /> */}
+          {/* <Footer /> */}
         </div>
       </div>
     </>
