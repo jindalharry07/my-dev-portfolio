@@ -2,10 +2,6 @@
 
 Welcome to **My Dev Portfolio** — a personal developer portfolio built with React and styled beautifully using Tailwind CSS. This project showcases your work, skills, and contact form integration using **EmailJS**.
 
-## 🔗 Live Demo
-
-> [Click Here to View Live Portfolio](https://jindalharry07.github.io/my-dev-portfolio)
-
 ---
 
 ## 🛠️ Tech Stack
