@@ -19,7 +19,8 @@ const BlurBlob = ({ position, size }) => {
       }}
     >
       <div
-        className="w-full h-full bg-[#0a11d7df] rounded-full opacity-20 blur-3xl animate-blob"
+        className="w-full h-full bg-[#5b21b6cc] rounded-full opacity-20 blur-3xl animate-blob"
+
       ></div>
     </div>
   );
